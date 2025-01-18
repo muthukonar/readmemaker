@@ -1,0 +1,25 @@
+{
+  "name": "readmemaker",
+  "version": "1.0.0",
+  "description": "README Generation project",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muthukonar/readmemaker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/muthukonar/readmemaker/issues"
+  },
+  "homepage": "https://github.com/muthukonar/readmemaker#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "inquirer": "^12.3.2"
+  }
+}
