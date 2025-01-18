@@ -43,7 +43,7 @@ const questions = [
       type: 'list',
       name: 'license',
       message: 'Select a license for this project:',
-      choices: ['MIT', 'Apache 2.0', 'Oracle', 'None'],
+      choices: ['MIT', 'Oracle', 'KoneTechI', 'None'],
     },
     {
       type: 'input',
