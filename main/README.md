@@ -1,23 +1,25 @@
 
-# KoneTechI® 
-Readme
-Release 1.0
-ABCD123.0
-January/2025
+  ### KoneTechI® 
+  README,
+  Release 1.0,
+  ABCD123.0 
 
+  January, 2025
   
-  # KoneTechI Solutions and Services Product Configuration
+    
+  # KoneTechI Solutions and Services Inc.
+
 
   ![MIT License](https://img.shields.io/badge/license-MIT-green)
 
   ## Description
-  Provides cutting edge technology solutions and Services as per your business needs
+  Service providers in cutting edge technologies mapping your business needs
 
   ## Table of Contents
 
   - [Installation](#installation)
   - [Usage](#usage)
-  - [credits](#credits)
+  - [credits]()
   - [Contributing](#contributing)
   - [Tests](#tests)
   - [License](#license)
@@ -35,7 +37,7 @@ start the application by executing ./konetechi
 https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide
 
 ## Contributing
-Audit your application and databases using this product and provide feedback on customization for your business  needs
+Audit your application and databases using this product and provide feedback on customization for your business needs
 
  ## Tests
 ./konetechi test --help(provides all options to test)
