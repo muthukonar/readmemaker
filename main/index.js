@@ -31,6 +31,11 @@ const questions = [
     },
     {
       type: 'input',
+      name: 'credits',
+      message: 'Provide references',
+    },
+    {
+      type: 'input',
       name: 'contributing',
       message: 'How can people contribute to this project?',
     },
