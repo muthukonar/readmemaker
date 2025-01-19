@@ -42,9 +42,30 @@ function renderLicenseSection(license) {
   return `## License\nThis project is licensed under the ${license} license.\n`;
 }
 
+// function getCurrentMonthYear() {
+//   const now = new Date();
+//   const months = [
+//     "January", "February", "March", "April", "May", "June",
+//     "July", "August", "September", "October", "November", "December"
+//   ];
+//   const month = months[now.getMonth()]; // Get the month (0-indexed)
+//   const year = now.getFullYear(); // Get the full year
+//   return `${month} / ${year}`;
+// }
+
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-  return `# ${data.title}
+  const KoneTechIInfo = `
+# KoneTechI® 
+Readme
+Release 1.0
+ABCD123.0
+${data.month}/${data.year}
+`;
+
+  return `${KoneTechIInfo}
+  
+  # ${data.title}
 
   ${renderLicenseBadge(data.license)}
 

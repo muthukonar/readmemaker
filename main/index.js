@@ -60,6 +60,16 @@ const questions = [
       name: 'email',
       message: 'What is your email address?',
     },
+    {
+      type: 'input',
+      name: 'month',
+      message: 'What is the current month?',
+    },
+    {
+      type: 'input',
+      name: 'year',
+      message: 'What is the current year?',
+    },
   ];
   
 

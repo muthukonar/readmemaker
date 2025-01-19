@@ -1,4 +1,12 @@
-# KoneTechI Solutions and Services Product Configuration
+
+# KoneTechI® 
+Readme
+Release 1.0
+ABCD123.0
+January/2025
+
+  
+  # KoneTechI Solutions and Services Product Configuration
 
   ![MIT License](https://img.shields.io/badge/license-MIT-green)
 
