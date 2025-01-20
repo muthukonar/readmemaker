@@ -6,10 +6,10 @@
 function renderLicenseBadge(license) {
   if (license === 'MIT') {
     return `![MIT License](https://img.shields.io/badge/license-MIT-green)`;
-  } 
+  }
   else if (license === 'KonetechI') {
     return `![KoneTechI License](https://img.shields.io/badge/license-KoneTechI-red)`;
-  } 
+  }
   // else if (license === ‘Oracle’) {
   //   return `![Oracle License](https://img.shields.io/badge/license-Oracle-blue)`;
   // }
@@ -23,7 +23,7 @@ function renderLicenseBadge(license) {
 function renderLicenseLink(license) {
   if (license === 'MIT') {
     return `[MIT License](https://opensource.org/licenses/MIT)`;
-  } 
+  }
   else if (license === 'KoneTechI') {
     return `[KoneTechI License](https://opensource.org/licenses/KoneTechI)`;
   }
@@ -52,7 +52,7 @@ function generateMarkdown(data) {
   ABCD123.0 \n
   ${data.month}, ${data.year}
   `;
-      return `${KoneTechIInfo}
+  return `${KoneTechIInfo}
     
   # ${data.title}
 
