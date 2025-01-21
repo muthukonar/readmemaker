@@ -1,19 +1,15 @@
 
-  ### KoneTechI® 
-  README,
-  Release 1.0,
-  ABCD123.0 
-
+<span style="color:red;">KoneTechI®</span> <br>
+  Release 1.0,<br>
+  ABCD123.0 <br>
   January, 2025
   
+   ![MIT License](https://img.shields.io/badge/license-MIT-green)
     
-  # KoneTechI Solutions and Services Inc.
-
-
-  ![MIT License](https://img.shields.io/badge/license-MIT-green)
+  # KoneTechI Solutions and Services - Product Installation
 
   ## Description
-  Service providers in cutting edge technologies mapping your business needs
+  Solutions and Services Providers in Technology
 
   ## Table of Contents
 
@@ -26,21 +22,21 @@
   - [Questions](#questions)
 
 ## Installation
-run `./runinstaller` in commad prompt from /konetechi folder
+install using .runInstaller from /Konetechi folder
 
 
 ## Usage
-start the application by executing ./konetechi
+execute konetechi.exe
 
 
 ## Credits
-https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide
+Instructor and TA's
 
 ## Contributing
-Audit your application and databases using this product and provide feedback on customization for your business needs
+Install, test in your environments and provide suggestions for customization
 
  ## Tests
-./konetechi test --help(provides all options to test)
+execute konetechi.exe test 
 
 
 ## License
@@ -52,3 +48,6 @@ This project is licensed under the MIT license.
 For any questions, please contact me at [muthu.konar@konetechi.com](mailto:muthu.konar@konetechi.com).
 You can also find more of my work at [muthukonar](https://github.com/muthukonar).
 
+
+
+'This document was last updated on January, 2025'

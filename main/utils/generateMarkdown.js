@@ -7,12 +7,13 @@ function renderLicenseBadge(license) {
   if (license === 'MIT') {
     return `![MIT License](https://img.shields.io/badge/license-MIT-green)`;
   }
+  else if (license === 'Apache') {
+    return `![Apache License](https://img.shields.io/badge/license-Apache%202.0-blue)`;
+  }
   else if (license === 'KonetechI') {
     return `![KoneTechI License](https://img.shields.io/badge/license-KoneTechI-red)`;
   }
-  // else if (license === ‘Oracle’) {
-  //   return `![Oracle License](https://img.shields.io/badge/license-Oracle-blue)`;
-  // }
+  
   return '';
 }
 
@@ -24,12 +25,12 @@ function renderLicenseLink(license) {
   if (license === 'MIT') {
     return `[MIT License](https://opensource.org/licenses/MIT)`;
   }
+  else if (license === 'Apache') {
+    return `[Apache License](https://www.apache.org/licenses/LICENSE-2.0)`;
+  }
   else if (license === 'KoneTechI') {
     return `[KoneTechI License](https://opensource.org/licenses/KoneTechI)`;
   }
-  //  else if (license === ‘Oracle’) {
-  //   return `[Oracle License](https://www.oracle.com/corporate/license-management-services)`;
-  // }
   return '';
 }
 
@@ -46,18 +47,15 @@ function renderLicenseSection(license) {
 function generateMarkdown(data) {
 
   const KoneTechIInfo = `
-  ### KoneTechI® 
-  README,
-  Release 1.0,
-  ABCD123.0 \n
+<span style="color:red;">KoneTechI®</span> <br>
+  Release 1.0,<br>
+  ABCD123.0 <br>
   ${data.month}, ${data.year}
   `;
   return `${KoneTechIInfo}
+   ${renderLicenseBadge(data.license)}
     
   # ${data.title}
-
-
-  ${renderLicenseBadge(data.license)}
 
   ## Description
   ${data.description}
@@ -97,7 +95,13 @@ ${renderLicenseSection(data.license)}
 For any questions, please contact me at [${data.email}](mailto:${data.email}).
 You can also find more of my work at [${data.github}](https://github.com/${data.github}).
 
+
+
+'This document was last updated on ${data.month}, ${data.year}'
 `;
 }
+
+
+
 
 export default generateMarkdown;
